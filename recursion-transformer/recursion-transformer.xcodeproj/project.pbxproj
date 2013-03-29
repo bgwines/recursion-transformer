@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B27C193170569DF00D0237B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B27C192170569DF00D0237B /* main.cpp */; };
+		8B27C195170569DF00D0237B /* recursion_transformer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B27C194170569DF00D0237B /* recursion_transformer.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B27C18D170569DF00D0237B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8B27C195170569DF00D0237B /* recursion_transformer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B27C18F170569DF00D0237B /* recursion-transformer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "recursion-transformer"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B27C192170569DF00D0237B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8B27C194170569DF00D0237B /* recursion_transformer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = recursion_transformer.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B27C18C170569DF00D0237B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B27C186170569DF00D0237B = {
+			isa = PBXGroup;
+			children = (
+				8B27C191170569DF00D0237B /* recursion-transformer */,
+				8B27C190170569DF00D0237B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B27C190170569DF00D0237B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B27C18F170569DF00D0237B /* recursion-transformer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B27C191170569DF00D0237B /* recursion-transformer */ = {
+			isa = PBXGroup;
+			children = (
+				8B27C192170569DF00D0237B /* main.cpp */,
+				8B27C194170569DF00D0237B /* recursion_transformer.1 */,
+			);
+			path = "recursion-transformer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B27C18E170569DF00D0237B /* recursion-transformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B27C198170569DF00D0237B /* Build configuration list for PBXNativeTarget "recursion-transformer" */;
+			buildPhases = (
+				8B27C18B170569DF00D0237B /* Sources */,
+				8B27C18C170569DF00D0237B /* Frameworks */,
+				8B27C18D170569DF00D0237B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "recursion-transformer";
+			productName = "recursion-transformer";
+			productReference = 8B27C18F170569DF00D0237B /* recursion-transformer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B27C187170569DF00D0237B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brett Wines";
+			};
+			buildConfigurationList = 8B27C18A170569DF00D0237B /* Build configuration list for PBXProject "recursion-transformer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B27C186170569DF00D0237B;
+			productRefGroup = 8B27C190170569DF00D0237B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B27C18E170569DF00D0237B /* recursion-transformer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B27C18B170569DF00D0237B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B27C193170569DF00D0237B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B27C196170569DF00D0237B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B27C197170569DF00D0237B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B27C199170569DF00D0237B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B27C19A170569DF00D0237B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B27C18A170569DF00D0237B /* Build configuration list for PBXProject "recursion-transformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B27C196170569DF00D0237B /* Debug */,
+				8B27C197170569DF00D0237B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B27C198170569DF00D0237B /* Build configuration list for PBXNativeTarget "recursion-transformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B27C199170569DF00D0237B /* Debug */,
+				8B27C19A170569DF00D0237B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B27C187170569DF00D0237B /* Project object */;
+}
